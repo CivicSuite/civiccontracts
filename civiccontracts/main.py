@@ -66,7 +66,7 @@ def root() -> dict[str, str]:
             "interpretation, legal advice, live LLM calls, contract execution workflows, and contract "
             "system-of-record integrations are not implemented yet."
         ),
-        "next_step": "Post-v0.1.0 roadmap: local contract catalog configuration, CivicRecords file links, and staff review queues",
+        "next_step": "Post-v0.1.1 roadmap: local contract catalog configuration, CivicRecords file links, and staff review queues",
     }
 
 
