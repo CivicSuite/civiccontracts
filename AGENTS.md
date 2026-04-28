@@ -9,10 +9,10 @@
 ## Hard Boundaries
 
 - CivicContracts never interprets legal obligations, approves renewals, executes contracts, provides legal advice, or updates a contract system of record.
-- CivicContracts v0.1.0 must not call live LLMs or live contract management platforms.
+- CivicContracts v0.1.1 must not call live LLMs or live contract management platforms.
 - Clause lookups, renewal visibility, and records exports must be marked staff-review-required where applicable.
 - CivicContracts depends on CivicCore; CivicCore must never depend on CivicContracts.
-- CivicContracts may reference CivicProcure and CivicRecords concepts only through released contracts or deterministic sample data in v0.1.0.
+- CivicContracts may reference CivicProcure and CivicRecords concepts only through released contracts or deterministic sample data in v0.1.1.
 
 ## Verification
 

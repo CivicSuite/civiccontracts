@@ -2,7 +2,7 @@
 
 CivicContracts is the CivicSuite module for central contract registry support, clause topic lookup, expiration tracking, renewal visibility, and public-records-aware exports.
 
-Current state: **v0.1.0 contract repository foundation release**. This repo ships a FastAPI package, health/root endpoints, documentation gates, deterministic sample contract registry, clause topic lookup, expiration tracking helper, renewal visibility helper, public-records export checklist, and accessible public sample UI at `/civiccontracts`. It does **not** ship live contract management platforms, official legal interpretation, legal advice, live LLM calls, contract execution workflows, or contract system-of-record integrations.
+Current state: **v0.1.1 contract repository foundation release**. This repo ships a FastAPI package, health/root endpoints, documentation gates, deterministic sample contract registry, clause topic lookup, expiration tracking helper, renewal visibility helper, public-records export checklist, and accessible public sample UI at `/civiccontracts`, aligned to `civiccore==0.3.0`. It does **not** ship live contract management platforms, official legal interpretation, legal advice, live LLM calls, contract execution workflows, or contract system-of-record integrations.
 
 ## What CivicContracts Does
 
@@ -18,7 +18,7 @@ Current state: **v0.1.0 contract repository foundation release**. This repo ship
 - It does not interpret legal obligations.
 - It does not approve renewals or execute contracts.
 - It does not provide legal advice.
-- It does not call live LLMs in v0.1.0.
+- It does not call live LLMs in v0.1.1.
 - It does not replace a contract system of record.
 
 ## API Surface

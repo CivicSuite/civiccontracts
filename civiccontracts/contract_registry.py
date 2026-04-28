@@ -1,4 +1,4 @@
-"""Deterministic contract registry helpers for CivicContracts v0.1.0."""
+"""Deterministic contract registry helpers for CivicContracts v0.1.1."""
 
 from __future__ import annotations
 
