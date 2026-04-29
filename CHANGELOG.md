@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [0.1.1] - 2026-04-28
 
+### Added
+
+- Optional SQLAlchemy-backed contract registry and renewal visibility records via `CIVICCONTRACTS_REGISTRY_DB_URL`.
+- Contract registry and renewal visibility retrieval endpoints for persisted records.
+
 ### Changed
 
 - Aligned CivicContracts to `civiccore==0.3.0`.

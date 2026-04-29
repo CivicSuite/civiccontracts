@@ -18,7 +18,8 @@ def test_root_endpoint_states_runtime_boundary() -> None:
 
     assert payload["name"] == "CivicContracts"
     assert payload["version"] == "0.1.1"
-    assert payload["status"] == "contract repository foundation"
+    assert payload["status"] == "contract repository foundation plus registry persistence"
+    assert "database-backed contract registry and renewal visibility records" in payload["message"]
     assert "official legal interpretation" in payload["message"]
     assert "not implemented yet" in payload["message"]
     assert payload["next_step"].startswith("Post-v0.1.1 roadmap")
